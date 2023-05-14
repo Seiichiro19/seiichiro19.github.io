@@ -1,0 +1,37 @@
+:root {
+    --pink:  rgb(252, 227, 231);
+    --darkred:darkred;
+    --white: #c0c0c0;
+    --black: #303030;
+}
+
+body{
+    font-family: Meiryo UI;
+    color: blueviolet;
+    background-color:;
+}
+
+/*ライトテーマ*/
+.light-theme {
+    background-color:var(--pink);
+    color:var(--darkred);
+}
+
+/*ダークテーマ*/
+.dark-theme {
+    background-color:var(--black);
+    color:var(--pink);
+}
+
+/* ボタン */
+#btn {
+    color: white;
+    background-color: black;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    position:absolute;
+    top: 20px;
+    right: 50px;
+}
